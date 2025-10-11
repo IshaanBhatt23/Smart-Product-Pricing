@@ -1,0 +1,16 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Large data files
+dataset/
+*.csv
+
+# Saved models and processed data
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
