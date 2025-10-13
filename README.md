@@ -116,10 +116,24 @@ The workflow is split into two main steps: training the model and generating pre
 
 -----
 
-## Future Work
+---
 
-  * **Integrate Image Features:** Extract features from product images using a pre-trained CNN (e.g., EfficientNet) and combine them with the text features to build a truly multimodal model.
-  * **Hyperparameter Tuning:** Use a library like Optuna or GridSearch to systematically find the optimal parameters for the LightGBM model.
+## Advanced Techniques Explored
+
+To maximize the model's performance, several state-of-the-art techniques were implemented during the development process.
+
+### Hyperparameter Tuning with Optuna ⚙️
+
+Finding the optimal settings (hyperparameters) for a machine learning model is crucial for achieving peak performance. Instead of manual guesswork, this project utilized **Optuna**, a powerful automated tuning framework.
+
+* An extensive, multi-hour search was conducted, running 30 distinct trials.
+* In each trial, Optuna intelligently selected a new combination of parameters, trained a LightGBM model, and evaluated its performance.
+* The final model was then trained using the single best set of hyperparameters discovered by this automated process, ensuring it was tuned for maximum accuracy on this specific dataset.
+
+### Model USed
+
+* A powerful top-tier gradient boosting model was explored: **LightGBM**
+* The model was trained independently on the same rich, multimodal feature set.
 
 -----
 
