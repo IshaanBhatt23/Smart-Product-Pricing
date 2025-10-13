@@ -11,6 +11,7 @@ dataset/
 
 # Saved models and processed data
 *.pkl
+*.npy
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
