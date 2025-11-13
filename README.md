@@ -1,6 +1,6 @@
 # Smart Product Pricing Prediction 🚀
 
-This repository contains the code for a machine learning solution to the **Smart Product Pricing Challenge**, which achieved a **rank of 629 out of 23,000 (Top 3%)**.
+This repository contains the code for a machine learning solution to the **Smart Product Pricing Challenge**, which achieved a **rank of 629 out of 23,000 (Top 2.73%)**.
 
 The goal of this project is to **predict the price of e-commerce products** using a **multimodal approach**, leveraging both **textual descriptions** and **product images**. This implementation combines advanced text-based feature engineering with deep-learning image embeddings to build a **high-performance ensemble model**.
 
